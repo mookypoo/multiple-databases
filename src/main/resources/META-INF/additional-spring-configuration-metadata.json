@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "spring.datasource.student.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.student.driver-class-name'"
+  },
+  {
+    "name": "spring.datasource.student.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.student.url'"
+  },
+  {
+    "name": "spring.datasource.student.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.student.username'"
+  },
+  {
+    "name": "spring.datasource.student.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.student.password'"
+  },
+  {
+    "name": "spring.datasource.teacher.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.teacher.driver-class-name'"
+  },
+  {
+    "name": "spring.datasource.teacher.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.teacher.url'"
+  },
+  {
+    "name": "spring.datasource.teacher.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.teacher.username'"
+  },
+  {
+    "name": "spring.datasource.teacher.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.teacher.password'"
+  }
+]}

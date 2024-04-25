@@ -1,0 +1,18 @@
+server:
+  port: 9202
+
+spring:
+  'profiles.active': dev
+  config:
+    import: secrets.yml
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        '[format_sql]': true
+        # CamelCase to Underscores naming is not done by default with multiple db
+        '[physical_naming_strategy]': org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+  
